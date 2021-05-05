@@ -1,34 +1,8 @@
-# antonioqm
+### Hi, I'm Antonio QM👋
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- 🔭 I’m currently working on Angular, React, Vue JS, NodeJS and Laravel
+- 🌱 I’m currently learning .NET Core, 
+- 👯 I’m looking to collaborate on Puppeteer
+- 💬 Ask me about Javascript, CSS or HTML
+- 📫 How to reach me: [http://antonioqm.com.br](http://antonioqm.dev.br)

@@ -1,14 +1,26 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+    <img src="../src/assets/antonio_qm.svg" alt="" srcset="" />
+    <!-- <div id="nav">
+       <router-link to="/">Home</router-link> |
+       <router-link to="/about">About</router-link>
+     </div>
     <router-view />
+     -->
   </div>
 </template>
 
 <style lang="scss">
+html,
+body {
+  background: #181722;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
