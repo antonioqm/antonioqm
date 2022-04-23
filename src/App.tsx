@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import eu from "./img/antonioqm-sentado 1.png";
 import "./App.css";
 
