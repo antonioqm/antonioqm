@@ -2,9 +2,7 @@ import { useRef } from "react";
 import eu from "./img/antonioqm-sentado 1.png";
 import "./App.css";
 
-
 function App() {
-  const img = useRef<HTMLImageElement>(new Image(100, 100));
 
   return (
     <div className="App">
@@ -26,7 +24,6 @@ function App() {
         <img src={eu} alt="" />
         <h1>
           <span>Antonio</span>
-
           <p>Frontend Developer</p>
         </h1>
       </div>
