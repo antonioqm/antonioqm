@@ -1,0 +1,120 @@
+html{
+  background: #0038FF;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+body{
+  background: #FF007A;
+  width: calc(100% - 40px);
+  height:  calc(100vh - 40px);
+  position: absolute;
+  /* overflow: hidden;
+  border-radius: 40px; */
+}
+.container  {
+  overflow: hidden;
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  background: linear-gradient(180deg, #2C273F 45.18%, #1F1B30 85.24%);
+  height: 100%;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: flex-end; */
+
+  display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: center;
+  
+
+}
+
+img{
+  display: flex;
+  max-width: 500px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: 2;
+  height: 517px;
+
+}
+
+.grid{
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  grid-template-columns: repeat(6, 1fr);
+  /* gap: 2%; */
+  /* padding: 0 8%; */
+  /* grid-auto-rows: 100px; */
+  z-index: 1;
+}
+
+.column{
+
+  width: 100%;
+  background: rgba(0, 0, 0, 0.11);
+  border-left: 1px solid rgba(202, 202, 255, 0.173);
+}
+.column:first-child{
+  border: none;
+}
+.column:nth-child(7){
+  border: none;
+}
+h1{
+  position: absolute;
+  /* margin-top: -150px; */
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 257.494px;
+  line-height: 200px;
+  /* identical to box height */
+  
+  
+  /* gradient-qm */
+  
+  background: linear-gradient(270deg, #FF007A 8.23%, #0038FF 89.07%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  align-self: center;
+  position: absolute;
+  /* justify-self: center; */
+
+}
+
+p{
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 41.1505px;
+line-height: 42px;
+margin-top: 14px;
+width: 220px;
+color: #7F74AB;
+-webkit-background-clip: #7F74AB;
+  -webkit-text-fill-color: #7F74AB;
+  background-clip: #7F74AB;
+
+}
+
+@media (max-width: 50em) { 
+  .grid{
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+ }
